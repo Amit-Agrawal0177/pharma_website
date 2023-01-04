@@ -1,51 +1,71 @@
-.fixed-nav{
-    position: fixed;
-    background-color: white;
-}
-.App .logo img{
-    height: 10%;
-    width: 20%;
-    margin: 1% 0 -2% 2%;
-  }
-
-.head-text img{
-    position: relative;
-    height: 100%;
-    width: 100%;
+ .scrolltext{
+     scroll-margin-top: 185px;
  }
+ 
+ .App{
+    scroll-behavior: smooth;
+ }
+
  .text-on-image{
-    position: absolute;
-    margin: 10px 20px;
-    width: 97.5%;
-    
-  }
- .topnav {
-    overflow: hidden;
-    background-color: rgb(38, 5, 144);
-    text-align: center;
-    padding: 0.5%;
-  }
-  .topnav a {
-    color: #f2f2f2;
-    padding: 20px 20px;
-    text-decoration: none;
-    font-size: 17px;
+     width: 100%;
+     height: 94px;
+    background-image: url(../assets/line.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+ .topnav {
+     background-color: white;
+     z-index: 5;
+     padding-top: 4vw;
+     position: fixed;
+     width: 100%;
+     box-shadow: 0px 10px 10px rgb(1, 1, 1, 0.3);
+     scroll-margin-top: 180px;
   }
+  
+  ul{
+      padding-left: 22%;
+      padding-top: 65px;
+      list-style: none;
+      display: flex;
+  }
+   li a{
+       margin-right: 3vw;
+       color: white;
+       font-size: 15px;
+       font-weight: bold;
+       text-decoration: none;
+   }
+   li a:hover{
+       opacity: 0.3;
+   }
+
+   .logo img{
+       margin: 1rem 0 0rem 1rem;
+       position: absolute;
+       top: 15px;
+       width: 400px;
+   }
 
   .side-name{
-      background-color: red;
-      width: fit-content;
+      background-color: #c13234;
+      width: 30%;
       color: white;
-      padding: 0 3% 0 3%;
-      border-radius: 0 7px 7px 0;
+      /* padding: 1px 5% 1px 5%; */
+      border-radius: 0 15px 15px 0;
       font-size: 1.2rem;
       font-family: 'Times New Roman', Times, serif;
+      box-shadow: 0px 10px 10px rgb(1, 1, 1, 0.3);
+      text-align: center;
   }
+
+ .about_c{
+     margin: 10% 0 0 0;
+     /* padding-top: 150px; */
+     
+ }
+
   .homePage img{
       width: 100%;
       height: 95vh;
@@ -54,4 +74,134 @@
   .global-img img{
       width: 100%;
       height: 80vh;
+  }
+
+  .productName{
+      /* background-color: rgb(244, 167, 167); */
+      color: white;
+      column-count: 3;
+      margin: 2rem;
+      padding: 2px;
+  }
+
+  .productName li{
+    background-color: #3c4494; 
+    background-image: linear-gradient(to right, #c13234, #3c4494);
+    padding: 12px;
+    margin:  0 1rem 1rem  1rem;
+    font-size: small;
+    font-weight: 600;
+    list-style: none;
+    border-radius: 13px;
+}
+
+.content{
+    margin: 10% 15%;
+    font-size: 25px;
+    font-weight: 400;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+.content1{
+    margin: 10px;
+    text-align: center;
+    padding: 4% 0 6% 0;
+}
+.content1 h2{
+    margin: 1px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.content1 h3{
+    margin: 10px 1px 1px 1px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.content1 h4{
+    margin: 1px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+  @media screen and (max-width : 700px){
+    ul{
+        align-content: center;
+        padding-left: 24%;
+        /* justify-content: space-around; */
+    }
+    li a{
+        font-size: 10px;
+    }
+    .productName{
+        /* background-color: rgb(244, 167, 167); */
+        color: white;
+        column-count: 2;
+        margin: 0;
+        padding: 0.5rem;
+    }
+    .productName li{
+        margin: 0 0.1rem 0.3rem 0.1rem;
+        font-weight: 400;
+        border-radius: 8px;
+    }
+    .side-name{
+        width: 50%;
+    }
+    
+  }
+  @media screen and (max-width : 433px){
+    .homePage img{
+        width: 100%;
+        height: 40vh;
+        margin-top: 35%;
+    }
+    .logo img{
+        width: 150px;
+    } 
+    ul{
+        align-content: center;
+        padding-left: 2%;
+        justify-content: space-around;
+    }
+    
+    li a{
+        font-size: 10px;
+    }
+    .side-name{
+        width: 70%;
+    }
+
+    .content{
+        margin: 10% 15%;
+        font-size: 25px;
+        font-weight: 400;
+        word-spacing: 2px;
+        text-align: center;
+    }
+    
+    .content1{
+        margin: 10px;
+        text-align: center;
+        padding: 2% 0 4% 0;
+    }
+    .content1 h2{
+        margin: 1px;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    .content1 h3{
+        margin: 10px 1px 1px 1px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .content1 h4{
+        margin: 1px;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .content{
+        font-size: 15px;
+    }
   }
