@@ -1,8 +1,7 @@
 import React from 'react'
 import homeImage from "../assets/young.jpg"
 import globalImage from "../assets/global.jpg"
-import tablet from "../assets/ExcludeB.png"
-import ProductItem, { item } from "./productItem"
+import  { item } from "./productItem"
 
 const Home = () => {
 	return (

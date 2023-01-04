@@ -2,7 +2,6 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import Navbar from "./components/Navbar";
 
 import logo_ap from "./assets/logo.png"
-import line_ap from "./assets/line.png"
 import "./components/Navbar.css"
 function App() {
 return (
