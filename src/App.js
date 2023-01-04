@@ -16,7 +16,7 @@ return (
           <li><AnchorLink href='#contact'>CONTACT US</AnchorLink></li> 
         </ul> 
         <div className="logo"> 
-          <img src={logo_ap} alt="logoimg" ></img>
+          <img src={logo_ap} alt="logoimg"></img>
         </div>       
       </div>
     </div>
