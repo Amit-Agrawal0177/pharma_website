@@ -87,13 +87,19 @@ const Contact = () => {
 
                 <div className='content1'>
                     <h2>Apoteca Pharma Private Limited</h2>
+                    
+                    <i class="fa-solid fa-envelope"></i>
+                    <a href='mailto:admin@apotecapharma.com'>admin@apotecapharma.com</a>
+                    <br></br>
 
-                    <h3>Office : </h3>
-                    <h4>81, Rajmahal Colony, Indore,</h4>
+                    {/* <h3>Office : </h3> */}
+                    <i class="fa-solid fa-briefcase"></i>
+                    <a>81, Rajmahal Colony, Indore,</a>
                     <h4>(M.P) INDIA - 452007</h4>
 
-                    <h3>Warehouse : </h3>
-                    <h4>37, Saptashrangi Nagar, Nihalpurmundi,</h4>
+                    {/* <h3>Warehouse : </h3> */}
+                    <i class="fa-solid fa-industry"></i>
+                    <a>37, Saptashrangi Nagar, Nihalpurmundi,</a>
                     <h4>Indore (M.P) INDIA, 452012</h4>
                     <h4>CIN: U51909MP2022PTC060416</h4>
                     <h4>GST No.: 23AAWCA8302L1ZC</h4>

@@ -8,7 +8,7 @@ return (
 	<div className="App">	          
     <div className='topnav'>
       <div className="text-on-image " > 
-        <ul>       
+        <ul style={{"scrolling-margin-top" : "180px"}}>       
           <li><AnchorLink href='#home'>HOME</AnchorLink></li>
           <li><AnchorLink href='#products'>PRODUCTS</AnchorLink></li>
           <li><AnchorLink href='#global'>GLOBAL PRESENCE</AnchorLink></li>
